@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    HEAD = information about the page (not shown on screen):
+    title, description for Google, icons, fonts and the stylesheet.
+  -->
+  <meta charset="UTF-8">
+  <!-- "viewport" makes the site scale properly on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>Brantesh Jala Solution | Hard Water Solutions in Davanagere</title>
+  <meta name="description" content="Brantesh Jala Solution makes salt-free hard water conditioners and sand and carbon filters for homes, apartments, farms, dairies, poultry, swimming pools and industry. Based in Davanagere, Karnataka.">
+  <meta name="theme-color" content="#0a2540">
+
+  <!-- Preview card shown when the link is shared on WhatsApp / Facebook -->
+  <meta property="og:title" content="Brantesh Jala Solution | Hard Water Solutions">
+  <meta property="og:description" content="Protect your pipes, heaters, crops and animals from hard water. Salt-free conditioners made in Davanagere.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/logo.png">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon-48.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon-192.png">
+
+  <!-- Fonts: Bricolage Grotesque (headings) and Figtree (body text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Keyboard users can jump straight to the content -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================================================
+       1. HEADER  (stays at the top while scrolling)
+       ============================================================ -->
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Brantesh Jala Solution - home">
+        <img src="assets/img/logo.png" alt="Brantesh Jala Solution Technologies logo" width="358" height="379">
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#problem">Hard water</a>
+        <a href="#how">How it works</a>
+        <a href="#solutions">Where we help</a>
+        <a href="#products">Products</a>
+        <a href="#founder">Founder</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-primary header-cta" href="#contact">Get a free quote</a>
+
+      <!-- Hamburger button (only visible on phones) -->
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         2. HERO  -  opens with the quote
+         ============================================================ -->
+    <section class="hero">
+      <!-- Moving light patterns, like sunlight at the bottom of a pool (pure CSS, see style.css) -->
+      <div class="caustics" aria-hidden="true"></div>
+
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <blockquote class="hero-quote">
+            <p>Water should clean everything it touches, not leave a crust behind.</p>
+          </blockquote>
+          <p class="hero-sub">
+            Brantesh Jala Solution designs salt-free water conditioners and filters that protect
+            your pipes, heaters, crops and animals from hard water.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-whatsapp" href="https://wa.me/918970011661?text=Hello%20Brantesh%20Jala%20Solution%2C%20I%20would%20like%20to%20know%20more%20about%20your%20hard%20water%20solutions." target="_blank" rel="noopener">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              Chat on WhatsApp
+            </a>
+            <a class="btn btn-ghost" href="#how">See how it works</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <!-- Product photo (transparent background) floating on a glowing circle -->
+          <div class="hero-orb"></div>
+          <img class="hero-product" src="assets/img/product-twin.webp" alt="Brantesh twin-tube water conditioner" width="483" height="723" fetchpriority="high">
+          <div class="hero-chip chip-a">Salt-free</div>
+          <div class="hero-chip chip-b">No chemicals</div>
+          <div class="hero-chip chip-c">Made in Davanagere</div>
+        </div>
+      </div>
+
+      <!-- Wave shape at the bottom of the hero -->
+      <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,40 C240,90 480,0 720,30 C960,60 1200,90 1440,35 L1440,80 L0,80 Z"/>
+      </svg>
+    </section>
+
+    <!-- Quick promises -->
+    <section class="promises" aria-label="Why customers choose us">
+      <div class="wrap promises-grid">
+        <div class="promise">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-drop"/></svg>
+          <div><strong>Very little water wasted</strong><span>No regeneration cycles that flush water to drain</span></div>
+        </div>
+        <div class="promise">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-leaf"/></svg>
+          <div><strong>No salt, no chemicals</strong><span>Safe for drinking water lines, plants and septic tanks</span></div>
+        </div>
+        <div class="promise">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-home"/></svg>
+          <div><strong>Homes to factories</strong><span>One range for every size of water line</span></div>
+        </div>
+        <div class="promise">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wrench"/></svg>
+          <div><strong>Local service</strong><span>Installation and support from our Davanagere team</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3. PROBLEM  -  what hard water does + interactive pipe slider
+         ============================================================ -->
+    <section class="section" id="problem">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Hard water hides in plain sight</h2>
+          <p>Most of the damage happens inside your pipes, long before you notice it at the tap. Here is what to look out for.</p>
+        </div>
+
+        <div class="problem-grid">
+          <!-- Left: signs of hard water, each with a real photo -->
+          <ul class="signs">
+            <li>
+              <img src="assets/img/tap-stain.webp" alt="Stained brown water running into a basin" loading="lazy" width="330" height="360">
+              <div>
+                <h3>Stained, smelly water</h3>
+                <p>Yellow-brown streaks in basins and buckets, and a metallic smell at the tap.</p>
+              </div>
+            </li>
+            <li>
+              <img src="assets/img/sand-dust.webp" alt="Sand and dust collected from water" loading="lazy" width="237" height="230">
+              <div>
+                <h3>Sand and dust in the water</h3>
+                <p>Fine particles settle in tanks and clog taps, showers and pumps.</p>
+              </div>
+            </li>
+            <li>
+              <img src="assets/img/mud-pipe.webp" alt="Pipe blocked with mud and deposits" loading="lazy" width="260" height="265">
+              <div>
+                <h3>Blocked, narrowing pipes</h3>
+                <p>Scale and mud build up inside the pipe, so water pressure drops over time.</p>
+              </div>
+            </li>
+            <li>
+              <img src="assets/img/clear-water.webp" alt="Clear water flowing over hands" loading="lazy" width="245" height="270">
+              <div>
+                <h3>What you want instead</h3>
+                <p>Clear, fresh-feeling water that is kind to skin, clothes, appliances and plants.</p>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Right: drag-to-compare pipe cross-section (made with SVG; logic in main.js) -->
+          <div class="compare-card">
+            <h3>Look inside a pipe</h3>
+            <p class="compare-help">Drag the handle to compare hard water with conditioned water.</p>
+
+            <div class="compare" id="compare">
+              <!-- BOTTOM layer: clean pipe -->
+              <svg class="compare-layer" viewBox="0 0 400 300" role="img" aria-label="Clean pipe cross-section with a wide open water channel">
+                <rect width="400" height="300" fill="#0f3a63"/>
+                <circle cx="200" cy="150" r="118" fill="#8aa0b4"/>
+                <circle cx="200" cy="150" r="104" fill="#2f9bd8"/>
+                <circle cx="200" cy="150" r="104" fill="url(#waterShine)"/>
+                <ellipse cx="160" cy="105" rx="34" ry="14" fill="#fff" opacity=".28" transform="rotate(-28 160 105)"/>
+              </svg>
+              <!-- TOP layer: scaled pipe (clipped by the slider) -->
+              <div class="compare-top" id="compareTop">
+                <svg class="compare-layer" viewBox="0 0 400 300" role="img" aria-label="Pipe choked with limescale, leaving a narrow water channel">
+                  <rect width="400" height="300" fill="#2b2b2b"/>
+                  <circle cx="200" cy="150" r="118" fill="#8aa0b4"/>
+                  <!-- scale deposit: thick, uneven chalky ring -->
+                  <path d="M200,32 C262,30 318,80 316,150 C318,222 262,270 200,268 C138,270 82,222 84,150 C82,80 138,30 200,32 Z" fill="#d9d2bf"/>
+                  <path d="M200,52 C250,48 296,88 292,150 C296,212 250,250 200,248 C150,250 104,212 108,150 C104,88 150,48 200,52 Z" fill="#c4baa0"/>
+                  <path d="M200,76 C238,72 270,104 268,150 C270,196 238,228 200,224 C162,228 130,196 132,150 C130,104 162,72 200,76 Z" fill="#a89a78"/>
+                  <circle cx="200" cy="150" r="42" fill="#3b82b5"/>
+                  <circle cx="132" cy="110" r="6" fill="#efe9d6"/><circle cx="270" cy="196" r="7" fill="#efe9d6"/>
+                  <circle cx="246" cy="86" r="5" fill="#efe9d6"/><circle cx="108" cy="190" r="5" fill="#efe9d6"/>
+                </svg>
+              </div>
+              <span class="compare-tag tag-left">Hard water</span>
+              <span class="compare-tag tag-right">Conditioned water</span>
+              <div class="compare-handle" id="compareHandle" aria-hidden="true"><span></span></div>
+              <!-- Real slider input: keyboard and screen-reader friendly -->
+              <input class="compare-range" id="compareRange" type="range" min="0" max="100" value="50" aria-label="Compare hard water and conditioned water">
+            </div>
+
+            <svg width="0" height="0" aria-hidden="true">
+              <defs>
+                <radialGradient id="waterShine" cx="35%" cy="30%" r="80%">
+                  <stop offset="0" stop-color="#7fd4ff" stop-opacity=".7"/>
+                  <stop offset="1" stop-color="#0d5a99" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+            </svg>
+            <p class="compare-note">Illustration. Real results depend on your water and usage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         4. HOW IT WORKS  -  explainer video + simple steps
+         ============================================================ -->
+    <section class="section section-blue" id="how">
+      <div class="wrap how-grid">
+        <div class="how-copy">
+          <h2>From borewell to bathroom, in four steps</h2>
+          <p class="lead">Watch the short animation to see how a Brantesh system sits on your water line and what happens to the water on the way.</p>
+
+          <ol class="steps">
+            <li><strong>Hard water comes in</strong><span>Water from your borewell or supply carries calcium and magnesium.</span></li>
+            <li><strong>It passes through the system</strong><span>The conditioner and filters treat the water as it flows past.</span></li>
+            <li><strong>Softer water leaves the tank</strong><span>Treated water goes on to your overhead tank.</span></li>
+            <li><strong>Every tap benefits</strong><span>Bathrooms, kitchen, geyser and washing machine all get the cleaner water.</span></li>
+          </ol>
+        </div>
+
+        <div class="video-card">
+          <!-- "poster" is the picture shown before the video is played -->
+          <video controls playsinline preload="metadata" poster="assets/img/video-poster.jpg">
+            <source src="assets/video/how-it-works.mp4" type="video/mp4">
+            Your browser cannot play this video.
+          </video>
+          <p class="video-caption">How a Brantesh water softening system works (50 seconds)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         5. SOLUTIONS BY SECTOR  -  tabs: pick where you use water
+         ============================================================ -->
+    <section class="section" id="solutions">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Pick where you use water</h2>
+          <p>Hard water hurts a home, a farm and a factory in different ways. Choose yours to see what changes.</p>
+        </div>
+
+        <!-- Tab buttons -->
+        <div class="tabs" role="tablist" aria-label="Where we help">
+          <button class="tab is-active" role="tab" id="tab-home" aria-selected="true" aria-controls="panel-home">Homes and flats</button>
+          <button class="tab" role="tab" id="tab-farm" aria-selected="false" aria-controls="panel-farm" tabindex="-1">Farms</button>
+          <button class="tab" role="tab" id="tab-animals" aria-selected="false" aria-controls="panel-animals" tabindex="-1">Dairy and poultry</button>
+          <button class="tab" role="tab" id="tab-pool" aria-selected="false" aria-controls="panel-pool" tabindex="-1">Swimming pools</button>
+          <button class="tab" role="tab" id="tab-industry" aria-selected="false" aria-controls="panel-industry" tabindex="-1">Industry</button>
+        </div>
+
+        <!-- Tab panels: only the active one is visible -->
+        <div class="panel is-active" role="tabpanel" id="panel-home" aria-labelledby="tab-home">
+          <img src="assets/img/install-tank.webp" alt="Brantesh conditioner installed beside a blue filter tank at a home" loading="lazy" width="339" height="452">
+          <div class="panel-body">
+            <h3>Cleaner bathrooms, longer-lasting appliances</h3>
+            <ul class="ticks">
+              <li>Existing scale is cleared and new scale is prevented in the plumbing</li>
+              <li>Washrooms stay cleaner, with less scrubbing</li>
+              <li>Water heaters last longer</li>
+              <li>Water purifiers need less maintenance</li>
+              <li>Soap lathers more easily</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Ask about home systems</a>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="panel-farm" aria-labelledby="tab-farm" hidden>
+          <img src="assets/img/farm.webp" alt="Sprinkler irrigating rows of crops" loading="lazy" width="491" height="416">
+          <div class="panel-body">
+            <h3>Drippers and sprinklers that stay open</h3>
+            <ul class="ticks">
+              <li>Stops lime scale blocking drip lines and sprinklers, so water flow stays steady</li>
+              <li>Softer water is easier for roots and soil to absorb</li>
+              <li>Helps protect soil quality</li>
+              <li>Supports healthier growth, better blooming and quality organic produce</li>
+              <li>Can help reduce pesticide use</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Ask about the farm softener</a>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="panel-animals" aria-labelledby="tab-animals" hidden>
+          <img src="assets/img/dairy.webp" alt="Dairy farmer pouring fresh milk into cans beside buffaloes" loading="lazy" width="388" height="397">
+          <div class="panel-body">
+            <h3>Better water for animals and birds</h3>
+            <p class="panel-intro">Farmers using conditioned water report:</p>
+            <ul class="ticks">
+              <li>More active, stronger cows</li>
+              <li>Higher milk content</li>
+              <li>Less smell in sheds</li>
+              <li>Fewer weak birds and lower mortality in poultry</li>
+              <li>Shorter batch days</li>
+            </ul>
+            <div class="mini-photos">
+              <img src="assets/img/poultry.webp" alt="Inside a poultry shed" loading="lazy" width="496" height="405">
+              <img src="assets/img/aqua.webp" alt="Aquaculture pond at sunset" loading="lazy" width="494" height="400">
+            </div>
+            <a class="btn btn-primary" href="#contact">Talk to us about your farm</a>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="panel-pool" aria-labelledby="tab-pool" hidden>
+          <img src="assets/img/pool.webp" alt="Resort swimming pool with sun loungers" loading="lazy" width="704" height="500">
+          <div class="panel-body">
+            <h3>Lighter, clearer pool water</h3>
+            <ul class="ticks">
+              <li>Water feels lighter and cleaner</li>
+              <li>Less scale and algae forming on tiles and fittings</li>
+              <li>Less skin and eye irritation</li>
+              <li>Less chlorine odour</li>
+              <li>Quicker cleaning and lower running costs</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Ask about pool systems</a>
+          </div>
+        </div>
+
+        <div class="panel" role="tabpanel" id="panel-industry" aria-labelledby="tab-industry" hidden>
+          <img src="assets/img/apartments.webp" alt="Residential apartment towers" loading="lazy" width="333" height="434">
+          <div class="panel-body">
+            <h3>Apartments, hotels, factories</h3>
+            <ul class="ticks">
+              <li>Clears existing scale and stops it coming back</li>
+              <li>Machines and water collection systems last longer</li>
+              <li>The whole plumbing network stays cleaner</li>
+              <li>Water mixes well with coolant</li>
+              <li>Lower maintenance cost, more profit</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Request a site visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. PRODUCTS
+         ============================================================ -->
+    <section class="section section-tint" id="products">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Our products</h2>
+          <p>Conditioners that protect the pipe, and filters that clean the water before it gets there.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product">
+            <div class="product-img"><img src="assets/img/product-twin.webp" alt="Twin-tube conditioner" loading="lazy" width="483" height="723"></div>
+            <h3>Twin-tube water conditioner</h3>
+            <p>Two stainless tubes joined by a single connector. Suited to homes, apartments, commercial buildings, industry and pools.</p>
+            <a class="link" href="#contact">Get a quote</a>
+          </article>
+
+          <article class="product">
+            <div class="product-img"><img src="assets/img/product-agri.webp" alt="Agriculture softener" loading="lazy" width="483" height="726"></div>
+            <h3>Agriculture softener</h3>
+            <p>Single-tube unit that keeps drip and sprinkler lines free of lime scale for steady irrigation.</p>
+            <a class="link" href="#contact">Get a quote</a>
+          </article>
+
+          <article class="product">
+            <div class="product-img"><img src="assets/img/product-double.webp" alt="Pool and large-line conditioner" loading="lazy" width="481" height="723"></div>
+            <h3>Pool and large-line conditioner</h3>
+            <p>Paired tubes with inline fittings for swimming pools and bigger water lines.</p>
+            <a class="link" href="#contact">Get a quote</a>
+          </article>
+
+          <article class="product">
+            <div class="product-img"><img src="assets/img/sand-filter.webp" alt="Kesari sand filter" loading="lazy" width="234" height="964"></div>
+            <h3>Sand and carbon filters</h3>
+            <p>Sand filters remove suspended solids. Carbon filters remove bad odour, taste, colour and certain pesticides. Manual or automatic valve.</p>
+            <a class="link" href="#contact">Get a quote</a>
+          </article>
+        </div>
+
+        <!-- Filter sizes table (from the company presentation) -->
+        <div class="sizes">
+          <h3>Filter sizes at a glance</h3>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr><th>Filter</th><th>Tank size</th><th>Maximum flow</th><th>Valve</th><th>Max pressure</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Sand filter, small</td><td>13" x 54"</td><td>3,000 litres/hr</td><td>Manual or automatic</td><td>3.5 bar</td></tr>
+                <tr><td>Sand filter, large</td><td>16" x 65"</td><td>6,000 litres/hr</td><td>Manual or automatic</td><td>3.5 bar</td></tr>
+                <tr><td>Carbon filter, small</td><td>10" x 54"</td><td>1,000 litres/hr</td><td>Manual or automatic</td><td>3.5 bar</td></tr>
+                <tr><td>Carbon filter, large</td><td>13" x 54"</td><td>3,000 litres/hr</td><td>Manual or automatic</td><td>3.5 bar</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="sizes-note">Not sure which size fits? Send us your daily water use and we will recommend one.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         7. MEET THE FOUNDER  -  dark, editorial layout
+         ============================================================ -->
+    <section class="founder" id="founder">
+      <div class="wrap founder-grid">
+
+        <div class="founder-portrait">
+          <div class="arch">
+            <img src="assets/img/founder.webp" alt="Mr. Chandrakanta G.G., founder of Brantesh Jala Solution Technologies" loading="lazy" width="756" height="734">
+          </div>
+          <div class="founder-name">
+            <strong>Mr. Chandrakanta G.G.</strong>
+            <span>Founder, Brantesh Jala Solution Technologies</span>
+          </div>
+        </div>
+
+        <div class="founder-story">
+          <h2>Meet the founder</h2>
+          <blockquote class="founder-quote">
+            <p>Quality and service is our motto.</p>
+          </blockquote>
+          <p class="founder-intro">
+            Chandrakanta G.G. was born in Nargund, Karnataka. After years inside the water softener
+            industry, he set out to build a better answer to hard water himself.
+          </p>
+
+          <!-- A real sequence over time, so a timeline fits here -->
+          <ol class="timeline">
+            <li>
+              <time>2010</time>
+              <p>Starts working in the water softener industry, including at Aquonix and Bluebird.</p>
+            </li>
+            <li>
+              <time>21 August 2017</time>
+              <p>Founds Brantesh Jala Solution Technologies in Davanagere and begins his own research into water softening.</p>
+            </li>
+            <li>
+              <time>Research years</time>
+              <p>Studies magnetic and electro-magnetic softeners in depth, then develops CDLPT (Calcium Debonding Low Power Technology), the idea behind Brantesh conditioners.</p>
+            </li>
+            <li>
+              <time>Today</time>
+              <p>Continues research into the sediment that hard water leaves behind, so the products keep improving.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         8. REAL INSTALLATIONS
+         ============================================================ -->
+    <section class="section" id="installs">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Installed and working</h2>
+          <p>Brantesh systems at customer homes. Neat pipework, compact size, and no mess.</p>
+        </div>
+        <div class="install-grid">
+          <figure>
+            <img src="assets/img/install-solar-line.webp" alt="Two conditioner tubes fitted on a rooftop water line with a bag filter" loading="lazy" width="397" height="505">
+            <figcaption>Twin conditioner with a bag filter on a rooftop line</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/install-tank.webp" alt="Conditioner beside an automatic valve filter tank" loading="lazy" width="339" height="452">
+            <figcaption>Conditioner with an automatic filter tank</figcaption>
+          </figure>
+          <div class="install-cta">
+            <h3>Want to see one working?</h3>
+            <p>Message us and we will arrange a site visit or a demonstration near you.</p>
+            <a class="btn btn-whatsapp" href="https://wa.me/918970011661?text=Hello%2C%20I%20would%20like%20to%20see%20a%20Brantesh%20system%20working." target="_blank" rel="noopener">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              Book a visit on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         9. FAQ  -  <details> opens/closes with no JavaScript
+         ============================================================ -->
+    <section class="section section-tint" id="faq">
+      <div class="wrap faq-wrap">
+        <div class="section-head left">
+          <h2>Questions people ask us</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>How is this different from a salt-based softener?</summary>
+            <p>Salt-based softeners swap calcium and magnesium for sodium and flush salty water down the drain. Brantesh conditioners use no salt and no chemicals, so nothing extra goes into your drinking water, plants or septic tank.</p>
+          </details>
+          <details>
+            <summary>Does it remove the hardness minerals from the water?</summary>
+            <p>A conditioner changes how the minerals behave so they stop forming scale. The minerals stay in the water, which is why drinking water keeps its natural content. If you want to discuss your specific water report, message us.</p>
+          </details>
+          <details>
+            <summary>Will it clear scale that has already formed?</summary>
+            <p>Yes. Our systems are designed to loosen existing scale in the plumbing and prevent new scale from forming.</p>
+          </details>
+          <details>
+            <summary>How much water does it waste?</summary>
+            <p>Very little. We estimate about 2% of the water is used up by the system. There is no regular flush of salty water like in salt-based units.</p>
+          </details>
+          <details>
+            <summary>Do I need a filter as well?</summary>
+            <p>It depends on your water. If you see sand, mud, colour or smell, a sand and carbon filter placed before the conditioner is a good idea. We will check your water and tell you honestly.</p>
+          </details>
+          <details>
+            <summary>Do you serve areas outside Davanagere?</summary>
+            <p>Yes. Send us your location on WhatsApp and we will tell you how we can help.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         10. CONTACT  -  form opens WhatsApp with the message ready
+         ============================================================ -->
+    <section class="section contact" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-info">
+          <h2>Tell us about your water</h2>
+          <p class="lead">Share a few details and we will reply on WhatsApp with a suggestion and a quote.</p>
+
+          <ul class="contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>
+              <div><strong>Customer care</strong><a href="tel:+918970011661">89700 11661</a></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              <div><strong>WhatsApp</strong><a href="https://wa.me/918970011661" target="_blank" rel="noopener">89700 11661</a></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-pin"/></svg>
+              <div><strong>Visit us</strong><span>K.B. Extension, Thrishul Talkies Road,<br>Opp. Adharsha Events, Davanagere, 577 002</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- This is not sent to a server. main.js builds a WhatsApp message from it. -->
+        <form class="enquiry" id="enquiryForm" novalidate>
+          <label>Your name
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>Your place or town
+            <input type="text" name="place" autocomplete="address-level2" required>
+          </label>
+          <label>Where will you use it?
+            <select name="usage" required>
+              <option value="">Choose one</option>
+              <option>Home or flat</option>
+              <option>Apartment complex</option>
+              <option>Farm or garden</option>
+              <option>Dairy or poultry</option>
+              <option>Swimming pool</option>
+              <option>Factory or commercial building</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Anything we should know? (optional)
+            <textarea name="message" rows="3" placeholder="For example: borewell water, daily use, problems you see"></textarea>
+          </label>
+          <p class="form-error" id="formError" role="alert" hidden>Please fill in your name, place and where you will use it.</p>
+          <button class="btn btn-whatsapp btn-block" type="submit">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            Send on WhatsApp
+          </button>
+        </form>
+      </div>
+
+      <div class="wrap map-wrap">
+        <iframe title="Brantesh Jala Solution location on the map" loading="lazy"
+                src="https://www.google.com/maps?q=Thrishul+Talkies+Road,+Davanagere,+Karnataka&output=embed"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <span class="logo-badge"><img src="assets/img/logo.png" alt="Brantesh Jala Solution Technologies" width="358" height="379"></span>
+        <p>Single solution for hard water problems.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#problem">Hard water</a>
+        <a href="#how">How it works</a>
+        <a href="#solutions">Where we help</a>
+        <a href="#products">Products</a>
+        <a href="#founder">Founder</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer-address">K.B. Extension, Thrishul Talkies Road, Opp. Adharsha Events, Davanagere, 577 002<br>Customer care: <a href="tel:+918970011661">89700 11661</a></p>
+    </div>
+    <p class="copyright">&copy; <span id="year">2026</span> Brantesh Jala Solution Technologies. All rights reserved.</p>
+  </footer>
+
+  <!-- ============================================================
+       FLOATING BUTTONS  -  always visible on every screen size
+       ============================================================ -->
+  <div class="float-actions">
+    <a class="float-btn float-call" href="tel:+918970011661" aria-label="Call Brantesh Jala Solution">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-phone"/></svg>
+    </a>
+    <a class="float-btn float-wa" href="https://wa.me/918970011661?text=Hello%20Brantesh%20Jala%20Solution%2C%20I%20need%20help%20with%20hard%20water." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+    </a>
+  </div>
+
+  <!-- ============================================================
+       ICON LIBRARY: each icon is drawn once here, then reused
+       anywhere with <svg><use href="#i-name"/></svg>
+       ============================================================ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-whatsapp" viewBox="0 0 32 32">
+        <path fill="currentColor" d="M16.04 3C9.4 3 4 8.4 4 15.03c0 2.12.55 4.18 1.6 6L4 29l8.17-1.57a12.03 12.03 0 0 0 3.87.63h.01C22.68 28.06 28 22.66 28 16.03 28 9.4 22.68 3 16.04 3Zm0 22.04h-.01c-1.2 0-2.38-.32-3.4-.93l-.25-.15-4.85.93.97-4.72-.16-.26a9.96 9.96 0 0 1-1.53-5.3c0-5.5 4.5-9.97 10.04-9.97 5.54 0 9.95 4.47 9.95 9.97 0 5.5-4.41 10.43-9.76 10.43Zm5.5-7.4c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.95 1.18-.18.2-.35.22-.65.07-.3-.15-1.28-.47-2.43-1.5-.9-.8-1.5-1.8-1.68-2.1-.18-.3-.02-.46.13-.6.14-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.64-.93-2.25-.24-.58-.5-.5-.68-.51h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.12 3.23 5.13 4.53.72.3 1.28.5 1.72.64.72.23 1.38.2 1.9.12.58-.09 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.12-.28-.2-.58-.35Z"/>
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z"/>
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/>
+      </symbol>
+      <symbol id="i-drop" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2.5C9 6.7 5.5 10.2 5.5 14.3a6.5 6.5 0 0 0 13 0C18.5 10.2 15 6.7 12 2.5Z"/>
+      </symbol>
+      <symbol id="i-leaf" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M20 3C10 3 4 8.5 4 15c0 1.6.5 3 1.4 4.2C6.5 14 9.5 10.8 14 9c-3.5 2.6-6 6-6.8 11.2.9.5 1.9.8 3 .8 7 0 9.8-7 8.8-18Z"/>
+      </symbol>
+      <symbol id="i-home" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 3 2 12h3v8h5v-5h4v5h5v-8h3L12 3Z"/>
+      </symbol>
+      <symbol id="i-wrench" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M21.7 6.3a1 1 0 0 0-1.6-.3l-2.6 2.6-2.1-.6-.6-2.1L17.4 3.3a1 1 0 0 0-.3-1.6A6 6 0 0 0 9.2 9.1L2.3 16a2.5 2.5 0 0 0 3.5 3.5l6.9-6.9a6 6 0 0 0 9-6.3Z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Optional Netlify settings. Netlify reads this file automatically.
+[build]
+  publish = "."
+
+# Cache images and the video for a month so repeat visits load fast
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
